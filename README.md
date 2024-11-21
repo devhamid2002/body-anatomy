@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# Human Body Parts Design Project using React and Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a design of different human body parts created using `React`, `Tailwind CSS`, and `TypeScript`. The purpose of this project is to complete a task and practice the use of these technologies.
 
-Currently, two official plugins are available:
+## Technologies Used:
+- **React**: Used to build the user interface and manage state.
+- **Tailwind CSS**: For styling and responsive design.
+- **TypeScript**: Adds type safety to the project for more secure coding.
+- **React Router DOM**: For managing routes and navigation within the app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Clone and Run the Project
 
-## Expanding the ESLint configuration
+1. Clone the project from GitHub:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+```bash
+git clone https://github.com/username/repository-name.git
 
-- Configure the top-level `parserOptions` property like this:
+```
+2. Navigate into the project directory:
+```bash
+cd body-anatomy
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+3. Install the dependencies:
+```bash
+npm install
+
+```
+4. To run the project in development mode, use the following command:
+```bash
+npm start
+
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Project Description
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This project represents different parts of the human body, including arms, hands, and chest, designed using Tailwind CSS for styling and React for functionality. It’s built as a simple project to practice modern web development tools and libraries like React, Tailwind, and TypeScript. The design is interactive, with elements being clickable to trigger different actions like displaying alerts.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![man](https://github.com/user-attachments/assets/1e255d26-a67d-4efc-8370-52138d105ed6)
+
