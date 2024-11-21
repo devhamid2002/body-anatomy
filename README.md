@@ -13,7 +13,7 @@ This project is a design of different human body parts created using `React`, `T
 1. Clone the project from GitHub:
 
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/devhamid2002/body-anatomy.git
 
 ```
 2. Navigate into the project directory:
